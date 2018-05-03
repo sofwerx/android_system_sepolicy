@@ -44,6 +44,7 @@
 /system/etc/docker  u:object_r:rootfs:s0
 /system/etc/resolv.conf  u:object_r:rootfs:s0
 /system/etc/nsswitch.conf  u:object_r:rootfs:s0
+/cpuset             u:object_r:rootfs:s0
 
 # SELinux policy files
 /nonplat_file_contexts  u:object_r:file_contexts_file:s0
