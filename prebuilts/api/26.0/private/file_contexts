@@ -36,6 +36,10 @@
 /d                  u:object_r:rootfs:s0
 /etc                u:object_r:rootfs:s0
 /sdcard             u:object_r:rootfs:s0
+/usr                u:object_r:rootfs:s0
+/lib                u:object_r:rootfs:s0
+/var                u:object_r:rootfs:s0
+/run                u:object_r:rootfs:s0
 
 # SELinux policy files
 /nonplat_file_contexts  u:object_r:file_contexts_file:s0
