@@ -41,6 +41,7 @@
 /lib                u:object_r:rootfs:s0
 /var                u:object_r:rootfs:s0
 /run                u:object_r:rootfs:s0
+/devices            u:object_r:rootfs:s0
 /system/etc/docker  u:object_r:rootfs:s0
 /system/etc/resolv.conf  u:object_r:rootfs:s0
 /system/etc/nsswitch.conf  u:object_r:rootfs:s0
